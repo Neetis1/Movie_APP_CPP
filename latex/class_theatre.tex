@@ -1,0 +1,65 @@
+\hypertarget{class_theatre}{}\doxysection{Theatre Class Reference}
+\label{class_theatre}\index{Theatre@{Theatre}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_theatre_a0a748460b8feeecfdb42224cde213cda}{Theatre}} (string theater\+Name, string location, unordered\+\_\+set$<$ string $>$ movie\+\_\+n)
+\item 
+\mbox{\hyperlink{class_theatre_aaf6514e7ddf4112047e3e6c32f1b56a0}{$\sim$\+Theatre}} ()
+\item 
+void \mbox{\hyperlink{class_theatre_ac5eb3269dbbf9104926971b6e537e188}{display\+Seats}} ()
+\item 
+string \mbox{\hyperlink{class_theatre_a3bc1f8d0377235e0adc61c71a3d2c570}{get\+Theatre\+Name}} ()
+\item 
+bool \mbox{\hyperlink{class_theatre_a836c9fd734819582656e8d08ef7e8030}{find\+Theatre}} (string movie\+\_\+name)
+\item 
+bool \mbox{\hyperlink{class_theatre_a9dbe2689d32153b6ae236a0a5f124da8}{book\+Seats}} (const std\+::set$<$ int $>$ \&seats)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_theatre_a0a748460b8feeecfdb42224cde213cda}\label{class_theatre_a0a748460b8feeecfdb42224cde213cda}} 
+\index{Theatre@{Theatre}!Theatre@{Theatre}}
+\index{Theatre@{Theatre}!Theatre@{Theatre}}
+\doxysubsubsection{\texorpdfstring{Theatre()}{Theatre()}}
+{\footnotesize\ttfamily Theatre\+::\+Theatre (\begin{DoxyParamCaption}\item[{string}]{theater\+Name,  }\item[{string}]{location,  }\item[{unordered\+\_\+set$<$ string $>$}]{tim }\end{DoxyParamCaption})}
+
+constructor of class \mbox{\hyperlink{class_theatre}{Theatre}} to initialize \mbox{\hyperlink{class_seating}{Seating}} arrangement for every theatre object that is created \mbox{\Hypertarget{class_theatre_aaf6514e7ddf4112047e3e6c32f1b56a0}\label{class_theatre_aaf6514e7ddf4112047e3e6c32f1b56a0}} 
+\index{Theatre@{Theatre}!````~Theatre@{$\sim$Theatre}}
+\index{````~Theatre@{$\sim$Theatre}!Theatre@{Theatre}}
+\doxysubsubsection{\texorpdfstring{$\sim$Theatre()}{~Theatre()}}
+{\footnotesize\ttfamily Theatre\+::$\sim$\+Theatre (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+destructor for \mbox{\hyperlink{class_theatre}{Theatre}} class deletes \mbox{\hyperlink{class_seating}{Seating}} object pointer 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_theatre_a9dbe2689d32153b6ae236a0a5f124da8}\label{class_theatre_a9dbe2689d32153b6ae236a0a5f124da8}} 
+\index{Theatre@{Theatre}!bookSeats@{bookSeats}}
+\index{bookSeats@{bookSeats}!Theatre@{Theatre}}
+\doxysubsubsection{\texorpdfstring{bookSeats()}{bookSeats()}}
+{\footnotesize\ttfamily bool Theatre\+::book\+Seats (\begin{DoxyParamCaption}\item[{const std\+::set$<$ int $>$ \&}]{seats }\end{DoxyParamCaption})}
+
+Function returns true if seats are booked else return false \mbox{\Hypertarget{class_theatre_ac5eb3269dbbf9104926971b6e537e188}\label{class_theatre_ac5eb3269dbbf9104926971b6e537e188}} 
+\index{Theatre@{Theatre}!displaySeats@{displaySeats}}
+\index{displaySeats@{displaySeats}!Theatre@{Theatre}}
+\doxysubsubsection{\texorpdfstring{displaySeats()}{displaySeats()}}
+{\footnotesize\ttfamily void Theatre\+::display\+Seats (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Function calls Seater classes dispaly function \mbox{\Hypertarget{class_theatre_a836c9fd734819582656e8d08ef7e8030}\label{class_theatre_a836c9fd734819582656e8d08ef7e8030}} 
+\index{Theatre@{Theatre}!findTheatre@{findTheatre}}
+\index{findTheatre@{findTheatre}!Theatre@{Theatre}}
+\doxysubsubsection{\texorpdfstring{findTheatre()}{findTheatre()}}
+{\footnotesize\ttfamily bool Theatre\+::find\+Theatre (\begin{DoxyParamCaption}\item[{string}]{movie\+\_\+name }\end{DoxyParamCaption})}
+
+Function to find Theatres based on the movie name \mbox{\Hypertarget{class_theatre_a3bc1f8d0377235e0adc61c71a3d2c570}\label{class_theatre_a3bc1f8d0377235e0adc61c71a3d2c570}} 
+\index{Theatre@{Theatre}!getTheatreName@{getTheatreName}}
+\index{getTheatreName@{getTheatreName}!Theatre@{Theatre}}
+\doxysubsubsection{\texorpdfstring{getTheatreName()}{getTheatreName()}}
+{\footnotesize\ttfamily string Theatre\+::get\+Theatre\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Function to return theatrename 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Theatre.\+h\item 
+Theatre.\+cpp\end{DoxyCompactItemize}

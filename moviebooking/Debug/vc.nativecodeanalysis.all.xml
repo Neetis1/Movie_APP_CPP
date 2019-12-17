@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\z003yc2n\source\repos\moviebooking\moviebooking</FILEPATH>
+      <FILENAME>booking.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Booking::M' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Booking::{ctor}</FUNCTION>
+    <DECORATED>??0Booking@@QAE@ABV?$vector@PAVTheatre@@V?$allocator@PAVTheatre@@@std@@@std@@@Z</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\z003yc2n\source\repos\moviebooking\moviebooking</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>68</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'getchar'.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>47</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\z003yc2n\source\repos\moviebooking\moviebooking</FILEPATH>
+      <FILENAME>theatre.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Theatre::S' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Theatre::{ctor}</FUNCTION>
+    <DECORATED>??0Theatre@@QAE@XZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>
